@@ -1,0 +1,156 @@
+lib.mainMenu = HMENU
+lib.mainMenu {
+entryLevel = 0
+1 = TMENU
+  1{
+    wrap = <ul>|</ul>
+    noBlur = 1
+    NO{
+      wrapItemAndSub = <li class='li_level_1_not_selected'>|</li>
+      ATagParams = class='level_1_not_selected has_no_children'
+    }
+  }
+  2 = TMENU
+    2{
+    noBlur = 1
+    ACT = 1
+    ACTIFSUB = 1
+    IFSUB = 1
+    NO{
+      wrapItemAndSub = <li class='li_level_1_not_selected'>|</li>
+      ATagParams = class='level_1_not_selected has_no_children'
+    }
+    IFSUB{
+      wrapItemAndSub = <li class='li_level_1_not_selected'>|</li>
+      ATagParams = class='level_1_not_selected has_children_closed'
+    }
+    ACT{
+      wrapItemAndSub = <li class='li_level_1_selected_no_children'>|</li>
+      ATagParams = class='level_1_selected has_no_children'
+    }
+    ACTIFSUB{
+      wrapItemAndSub = <li class='li_level_1_selected_children'>|</li>
+      ATagParams = class='level_1_selected has_children_open'
+    }
+    }
+  3 = TMENU
+  3{
+    noBlur = 1
+    ACTIFSUB = 1
+    IFSUB = 1
+    CUR = 1
+    CURIFSUB = 1
+    wrap = <ul>|</ul>
+ 
+    NO{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_2_not_selected'      
+    }
+        
+    IFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_2_not_selected has_children_closed'
+    }
+    
+    ACTIFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_2_not_selected has_children_open'
+    }
+
+    CUR{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_2_selected'
+    }
+    CURIFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_2_selected has_children_open'
+    }
+  }
+  4 = TMENU
+  4{
+    noBlur = 1
+    ACTIFSUB = 1
+    IFSUB = 1
+    CUR = 1
+    CURIFSUB = 1
+    wrap = <ul>|</ul>
+    NO{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_3_not_selected'
+    }
+    IFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_3_not_selected has_children_closed'
+    }
+    ACTIFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_3_not_selected has_children_open'
+    }
+    CUR{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_3_selected'
+    }
+    CURIFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_3_selected has_children_open'
+    }
+  }
+  5 = TMENU
+  5{
+    noBlur = 1
+    ACTIFSUB = 1
+    IFSUB = 1
+    CUR = 1
+    CURIFSUB = 1
+    wrap = <ul>|</ul>
+    NO{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_4_not_selected'
+    }
+    IFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_4_not_selected has_children_closed'
+    }
+    ACTIFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_4_not_selected has_children_open'
+    }
+    CUR{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_4_selected'
+    }
+    CURIFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_4_selected has_children_open'
+    }
+  }
+  6 = TMENU
+  6{
+    noBlur = 1
+    ACTIFSUB = 1
+    IFSUB = 1
+    CUR = 1
+    CURIFSUB = 1
+    wrap = <ul>|</ul>
+    NO{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_5_not_selected'
+    }
+    IFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_5_not_selected has_children_closed'
+    }
+    ACTIFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_5_not_selected has_children_open'
+    }
+    CUR{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_5_selected'
+    }
+    CURIFSUB{
+      wrapItemAndSub = <li>|</li>
+      ATagParams = class='level_5_selected has_children_open'
+    }
+  }
+}
