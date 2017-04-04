@@ -30,7 +30,6 @@
             
             <div class="logo-box">
                 <div class="logo-box-inner">
-                    <!-- Infobox mit Bild und Text -->
                     <div class="logo-box-logo"></div>
                 </div>
             </div>
@@ -41,13 +40,17 @@
         
         <div id="right-row">
             <div id="right-box-1">
-                <f:format.raw>{content_right_row}</f:format.raw>
+                <div class="infobox">
+                    <div class="infobox-inner">
+                        <f:format.raw>{content_right_row}</f:format.raw>
+                    </div>
+                </div>
             </div>
             
             <div id="right-box-2">
                 <div class="infobox">
                     <div class="infobox-inner">
-                        <!-- Infobox mit Bild und Text -->
+                        <!-- Important Links box -->
                         <f:cObject typoscriptObjectPath="lib.rightBox" />
                     </div>
                 </div>
