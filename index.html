@@ -39,22 +39,9 @@
         
         
         <div id="right-row">
-            <div id="right-box-1">
-                <div class="infobox">
-                    <div class="infobox-inner">
-                        <f:format.raw>{content_right_row}</f:format.raw>
-                    </div>
-                </div>
-            </div>
+            <f:render section="right-box-1" />
             
-            <div id="right-box-2">
-                <div class="infobox">
-                    <div class="infobox-inner">
-                        <!-- Important Links box -->
-                        <f:cObject typoscriptObjectPath="lib.rightBox" />
-                    </div>
-                </div>
-            </div>
+            <f:render section="right-box-2" />
         </div>
         
         

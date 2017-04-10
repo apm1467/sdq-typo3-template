@@ -1,0 +1,24 @@
+<f:layout name="index" />
+
+<f:section name="right-box-1">
+    <div id="right-box-1">
+        <f:if condition="{content_right_row}">
+            <div class="infobox">
+                <div class="infobox-inner">
+                    <f:format.raw>{content_right_row}</f:format.raw>
+                </div>
+            </div>
+        </f:if>
+    </div>
+</f:section>
+
+<f:section name="right-box-2">
+    <div id="right-box-2">
+        <div class="infobox">
+            <div class="infobox-inner">
+                <!-- Important Links box -->
+                <f:cObject typoscriptObjectPath="lib.rightBox" />
+            </div>
+        </div>
+    </div>
+</f:section>
