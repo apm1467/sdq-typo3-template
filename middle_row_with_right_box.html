@@ -1,24 +1,36 @@
 <f:layout name="index" />
 
-<f:section name="right-box-1">
-    <div id="right-box-1">
-        <f:if condition="{content_right_row}">
+<f:section name="right-row">
+    <div id="right-row">
+    
+        <div id="right-box-1">
+            <f:if condition="{content_right_row}">
+                <div class="infobox">
+                    <div class="infobox-inner">
+                        <f:format.raw>{content_right_row}</f:format.raw>
+                    </div>
+                </div>
+            </f:if>
+        </div>
+    
+        <div id="right-box-2">
             <div class="infobox">
                 <div class="infobox-inner">
-                    <f:format.raw>{content_right_row}</f:format.raw>
+                    <!-- Important Links box -->
+                    <f:cObject typoscriptObjectPath="lib.rightBox" />
                 </div>
             </div>
-        </f:if>
+        </div>
+        
     </div>
 </f:section>
 
-<f:section name="right-box-2">
-    <div id="right-box-2">
-        <div class="infobox">
-            <div class="infobox-inner">
-                <!-- Important Links box -->
-                <f:cObject typoscriptObjectPath="lib.rightBox" />
-            </div>
+
+<f:section name="middle-row" />
+    <div id="middle-row">
+        <div id="content">
+            <a name="sdqtop" id="top"></a>
+            <f:format.raw>{content_middle_row}</f:format.raw>
         </div>
     </div>
 </f:section>
