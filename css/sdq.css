@@ -1,0 +1,431 @@
+@import url(kit.css);
+@import url(../sdq-powermail/sampleCSS.css);
+
+div#head-image {
+  background-image:url(img/intern/SDQ_V3.jpg);
+}
+
+div#suchen {
+  background-color:#FFFFFF;
+  border:0 none;
+  height:17px;
+  margin:0 0 10px 5px;
+  padding:1px;
+  width:174px;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 2em;
+    list-style-type:square;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* horizontal geteilte rechte Box */
+div#right-box-1 {
+    float:right;
+    width:199px;
+}
+div#right-box-2 {
+    float:right;
+    width:199px;
+}
+
+/* Menuebenen*/
+#menu-box ul li ul li {
+    background-color: #b3e0da;
+}
+
+#menu-box ul li ul li ul li {
+    background-color: #d9efec;
+}
+
+#menu-box ul li ul li ul li ul li {
+    background-color: #d9efec;
+}
+
+#menu-box ul li ul li ul {
+    border-top:2px solid #ffffff;
+    border-bottom:2px solid #ffffff;
+}
+
+#menu-box .li_level_1_selected_children {
+    background-color: #b3e0da;
+}
+
+#menu-box .level_2_not_selected {
+    margin: 0px;
+    color: #000000;
+    background-color: #b3e0da;
+}
+#menu-box .level_2_selected {
+    margin: 0px;
+    color: #000000;
+    background-color: #b3e0da;
+    font-weight: 700;
+}
+#menu-box .level_3_not_selected {
+    margin: 0px;
+    margin-left: 10px;
+    color: #000000;
+    background-color: #d9efec;
+}
+#menu-box .level_3_selected {
+    margin: 0px;
+    margin-left: 10px;
+    color: #000000;
+    font-weight: 700;
+    background-color: #d9efec;
+}
+#menu-box .level_4_not_selected {
+    margin: 0px;
+    margin-left: 15px;
+    color: #000000;
+    background-color: #d9efec;
+}
+#menu-box .level_4_selected {
+    margin: 0px;
+    margin-left: 15px;
+    color: #000000;
+    font-weight: 700;
+    background-color: #d9efec;
+}
+#menu-box .level_5_not_selected {
+    margin: 0px;
+    margin-left: 20px;
+    color: #000000;
+    background-color: #d9efec;
+}
+#menu-box .level_5_selected {
+    margin: 0px;
+    margin-left: 20px;
+    color: #000000;
+    font-weight: 700;
+    background-color: #d9efec;
+}
+/* SDQ-Logo*/
+div.logo-box {
+    margin: 25px 0px 25px 0px;
+}
+
+div.project-box {
+    margin: 0px 0px 5px 0px;
+}
+
+div.logo-box-inner {
+    background:#fff url(images/left_navi.gif) right top no-repeat;
+    background-position: right bottom;
+    margin-left: -2px;
+    width:178px;
+}
+
+div.project-box-inner {
+    background:#fff url(images/left_navi.gif) right top no-repeat;
+    background-position: right bottom;
+    margin-left: -2px;
+    width:178px;
+    margin: 0px 0px 5px 0px;
+}
+
+div.logo-box-logo {
+    padding: 10px 19px 10px 19px;
+    width: 138px;
+    height: 81px;
+    background-image: url(images/SDQ-Logo-new.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position: 20px 0px; */
+}
+
+div.projects-logo {
+    padding: 3px 18px;
+    width: 138px;
+    /* height: 30px;*/
+    /* background-position: 20px 0px; */
+}
+
+div.projects-logo a{
+    font-size:0.9091em;
+    color:#808080;
+    font-weight:700;
+text-decoration:none;
+}
+
+/* Begrenzung f�r Men�elemente*/
+.bottom_border {
+    margin-top: 0px;
+    border-bottom:2px solid #ffffff;
+}
+
+/* Typo3-Anpassungen */
+div.csc-textpic, div.csc-textpic-text, div.tx-wagurlgrab-pi1, 
+  div.tx-indexedsearch, div.news-single-item, 
+  div.csc-sitemap, ul.csc-bulletlist, div.tx-netcoshtmlfile-pi1 {
+    color:#000000;
+    line-height:1.45em;
+    margin:-3px 0 19px;
+    overflow:hidden;
+}
+
+
+dl.csc-menu, ul.csc-menu {
+    line-height:1.45em;
+    margin:-3px 0 19px;
+    overflow:hidden;
+}
+
+.csc-menu dt {
+  font-weight:bold;
+  
+}
+
+.csc-menu dd {
+  margin-left:20px;
+  color:#808080;
+}
+
+div.infobox-inner {
+  padding:10px;
+}
+
+div.infobox-inner a:link, div.infobox-inner a:active, div.infobox-inner a:visited {
+    text-decoration:none;
+}
+
+div.infobox-inner pre a:link, div.infobox-inner pre a:active, div.infobox-inner pre a:visited {
+    text-decoration:none;
+    background:none;
+}
+
+div.infobox-inner .text {
+  margin-left:1px;
+  margin-bottom:0px;
+}
+
+div.infobox-inner h1 {
+  border-bottom:none;
+  padding:0;
+  margin-bottom:5px;
+}
+
+.infobox img {
+  margin: 0 0 4px 0;
+}
+
+div.csc-textpic div.csc-textpic-imagewrap .csc-textpic-image a {
+    color:#000000;
+    background:none;
+}
+
+div.infobox ul {
+    padding-left:0;
+    margin-left:-1.2em;
+    list-style-type:none;
+}
+
+div.text a.infobox-link {
+    background:none;
+    padding-left:0px;
+}
+
+div.news-list-wrapper {
+    border-bottom:1px #cccccc solid;
+    padding-top:5px;
+    padding-bottom:5px;
+    clear:both;
+}
+
+div.news-list-item {
+    line-height:1.45em;
+    color:#000000;
+    margin-right:140px;
+}
+
+div.news-list-item p {
+    text-align:justify;
+}
+
+div.news-list-image {
+    float:right;
+    text-align:right;
+    width:140px;
+    padding-bottom:10px;
+}
+
+div.news-list-item-sidebar {
+    color:#000000;
+    line-height:1.2em;
+    font-size:0.91em;
+    margin:-3px 0 5px;
+    overflow:hidden;
+}
+
+div.news-list-item-sidebar h3 {
+    padding-bottom:0px;
+    line-height:1.2em;
+    font-weight:300;
+}
+
+div.news-single-img {
+    float: right;
+    padding-left: 10px;
+    text-align: right;
+}
+
+div.news-single-footer {
+    font-size:0.8em;
+    clear: both;
+}
+    
+div.news-single-footer hr {
+    border:0;
+    height:1px;
+    margin-top:30px;
+    color:#D9D9D9;
+    background-color:#D9D9D9;
+}
+
+.bild-desc {
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+/* Tabelle 3 */
+table.contenttable {
+    color:#000000;
+    margin-bottom:10px;
+    width:100%; 
+    line-height:1.2em;
+}
+table.contenttable td{
+    padding:4px 0 4px 5px;
+    vertical-align:top;
+}
+table.contenttable th {
+    background-color:#d9d9d9;
+    color:#000;
+    padding:4px 5px 5px;
+    text-align:left;
+    vertical-align:bottom;
+}
+table.contenttable .tr-even{
+    background-color:#d9d9d9;
+    color:#000000;
+}
+
+table.sdq-equi-width td {
+    width:50%;
+}
+
+table.sdq-people .td-0 {
+    width:25%;
+}
+
+table.sdq-people .td-1 {
+    width:18%;
+}
+
+table.sdq-people .td-2 {
+    width:24%;
+}
+
+table.sdq-people .td-3 {
+    width:33%;
+}
+
+/* Mittlere Spalte (Content) */
+div#middle-row-wide {
+    font-size: 9pt;
+    background-color:#fff;
+    padding:10px;
+    margin:0 10px 10px 0;
+    float:left;
+    width:760px;
+}
+* html div#middle-row-wide { /* IE 6 */
+    padding:10px 0 10px 10px;
+    width:741px;
+}
+
+/* Wrapper */
+div#wrapper-wide {
+    background:url(img/intern/bg_wrapper_V2_wide.png) 0 0 repeat-y;
+    background-color: transparent;
+    height:auto !important;
+    height:100%;
+    margin:0 auto;
+    min-height:100%;
+    position:relative;
+    width:1015px;
+}
+
+/* Suchfeld */
+
+div#suchen input#tx-indexedsearch-searchbox-sword {
+    margin:0;
+    border:0;
+    border-right:1px solid #b3b3b3;
+    padding:1px 0 0 0;
+    float:left;
+    height:14px;
+    width:111px;
+    font-size:0.9091em;
+}
+/* News */
+div.news-single-additional-info {
+    margin: 10px 0px 10px 0px;
+}
+
+table.newstabelle .text {
+  padding-right:15px;
+}
+
+/* Topic Index / keywordlist */
+.tx-mwkeywordlist-pi1-content div ul li {
+    margin-left:30px;
+}
+
+div.csc-sitemap li {
+  margin-bottom:4px;
+  margin-top:4px;
+}
+
+div.csc-sitemap ul {
+    list-style-type:none;
+}
+
+div.csc-sitemap ul li {
+    font-weight:bold;
+    line-height:16px;
+}
+
+div.csc-sitemap ul li ul {
+    list-style-type:none;
+}
+
+div.csc-sitemap ul li ul li ul {
+    list-style-type:square;
+    color:#009682;
+}
+
+div.csc-sitemap ul li ul li ul li a {
+    font-weight:normal;
+    color:#4D4D4D;
+}
+
+table.ptabelle .hours {
+  line-height:1.25em;
+  vertical-align:top;
+}
+
+div.tx-powermail-pi1 {
+  line-height:1.25em;
+}
+
+blockquote#abstractBQ{
+  padding:5px;
+}
