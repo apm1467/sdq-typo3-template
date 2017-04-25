@@ -19,3 +19,4 @@
 # Ignore temp directory.
 /typo3temp/
 .DS_Store
+*.swp
