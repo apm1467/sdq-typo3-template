@@ -54,7 +54,16 @@
 
 .news .article .news-img-wrap {
 	float: right;
-	margin-left: 12px;
+	margin-left: 40px;
+}
+
+.news-img-wrap a {
+    border: none !important;
+}
+
+.news-img-wrap a img {
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .news .article .teaser-text {
