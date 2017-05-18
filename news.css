@@ -1,6 +1,13 @@
-/**************************************/
-/* Default styles for news extension */
-/**************************************/
+/* This file overwrites default CSS of News extension */
+/* typo3conf/ext/news/Resources/Public/Css/news-basic.css */
+
+.news {
+    width: 100%;
+}
+.news-list-view {
+    margin: 0 auto;
+    line-height: 1.25em;
+}
 .news .clear {
 	clear: both;
 }
@@ -29,8 +36,7 @@
 }
 
 .news .article {
-	padding-bottom: 15px;
-	margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
 }
 
 .news .article:last-child {
@@ -47,23 +53,8 @@
 }
 
 .news .article .news-img-wrap {
-	float: left;
-	margin: 3px 12px 5px 0;
-	background: #fff;
-}
-
-.news .article .news-img-wrap a {
-	display: block;
-	float: left;
-	padding: 4px;
-	border: 1px solid #ddd;
-	background: #fff;
-}
-
-.news .article .news-img-wrap img {
-	float: left;
-	height: auto;
-	width: auto;
+	float: right;
+	margin-left: 12px;
 }
 
 .news .article .teaser-text {
@@ -75,11 +66,7 @@
 }
 
 .news .footer {
-	clear: both;
-	padding: 10px 0 0 0;
-	border-top: 1px solid #eee;
-	margin-top: 15px;
-	color: #888;
+    display: none;
 }
 
 .news .footer p {
