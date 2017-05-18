@@ -2,7 +2,7 @@
 @import url(../sdq-powermail/sampleCSS.css);
 
 div#head-image {
-  background-image:url(../img/intern/SDQ_V3.jpg);
+  background-image:url(img/intern/SDQ_V3.jpg);
 }
 
 div#suchen {
@@ -117,14 +117,14 @@ div.project-box {
 }
 
 div.logo-box-inner {
-    background:#fff url(../images/left_navi.gif) right top no-repeat;
+    background:#fff url(images/left_navi.gif) right top no-repeat;
     background-position: right bottom;
     margin-left: -2px;
     width:178px;
 }
 
 div.project-box-inner {
-    background:#fff url(../images/left_navi.gif) right top no-repeat;
+    background:#fff url(images/left_navi.gif) right top no-repeat;
     background-position: right bottom;
     margin-left: -2px;
     width:178px;
@@ -135,7 +135,7 @@ div.logo-box-logo {
     padding: 10px 19px 10px 19px;
     width: 138px;
     height: 81px;
-    background-image: url(../images/SDQ-Logo-new.png);
+    background-image: url(images/SDQ-Logo-new.png);
     background-repeat: no-repeat;
     background-position: center;
     /* background-position: 20px 0px; */
@@ -353,7 +353,7 @@ div#middle-row-wide {
 
 /* Wrapper */
 div#wrapper-wide {
-    background:url(../img/intern/bg_wrapper_V2_wide.png) 0 0 repeat-y;
+    background:url(img/intern/bg_wrapper_V2_wide.png) 0 0 repeat-y;
     background-color: transparent;
     height:auto !important;
     height:100%;
